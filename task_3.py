@@ -99,7 +99,7 @@ diff = DeepDiff(
 )
 
 # Должно быть это, но не было времени исправлять
-diff = DeepDiff(
+diff1 = DeepDiff(
     json_old,
     json_new,
     include_paths=diff_list,
